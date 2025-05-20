@@ -105,3 +105,14 @@ article {
     align-items: center;
   }
 }
+article h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+article time {
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+}
