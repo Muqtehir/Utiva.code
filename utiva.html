@@ -1,76 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./utiva.css">
-  <title>Newspaper project </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News Portal</title>
+  <link rel="stylesheet" href="./utiva.css" />
 </head>
 <body>
-  <header class="masthead">
-  <h1>Daily news</h1>
+<header class="masthead">
+  <h1>Daily News</h1>
   <p class="date">May 20, 2025</p>
 </header>
-<nav class="main-nav">
+
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Politics</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Health</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="news-grid">
+      <article class="news-card">
+        <h2>New Tech Bill Signed Into Law</h2>
+        <p class="meta"><strong>By:</strong> Sarah Bello | May 20, 2025</p>
+        <p>The government has passed a new bill aimed at supporting tech education and digital infrastructure nationwide. Experts say this will boost innovation and job creation across multiple sectors.</p>
+      </article>
+
+      <article class="news-card">
+        <h2>Power Grid Stabilizes After Outage</h2>
+        <p>After days of blackouts, the national power grid has been stabilized. Authorities credited quick engineering interventions and regional cooperation for the fast recovery.</p>
+      </article>
+
+      <article class="news-card">
+        <h2>University Exams Postponed</h2>
+        <p><strong>By:</strong> Jennifer Obi | <em>May 18, 2025</em></p>
+        <p>Due to ongoing protests, the Ministry of Education has postponed all university exams by two weeks. Students are advised to follow official channels for updated schedules.</p>
+      </article>
+    </section>
+
+    <aside class="sidebar">
+      <h3>Trending News</h3>
+      <ul class="trending-list">
+        <li><a href="#">Breaking: National Budget Released</a></li>
+        <li><a href="#">Power Grid Stabilizes After Outage</a></li>
+        <li><a href="#">University Exams Postponed</a></li>
+        <li><a href="#">Local Hero Saves Family</a></li>
+      </ul>
+    </aside>
+<article>
+  <h2>Obi: Nigeria's Problems Can Be Solved From the North</h2>
+  <p><strong>By:</strong> Arise News | <time datetime="2025-05-26">May 26, 2025</time></p>
+
+  <p>Peter Obi has highlighted the significant role that Northern Nigeria can play in resolving the nation's issues. He believes that with the right focus and investment, the North holds the key to Nigeria's progress.</p>
+
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eb7AJ8efWEs" title="Obi: Nigeria's Problems Can Be Solved From the North" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <h3>Related Stories</h3>
   <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Politics</a></li>
-    <li><a href="#">Business</a></li>
-    <li><a href="#">Technology</a></li>
-    <li><a href="#">Health</a></li>
+    <li><a href="#">Northern Leaders Unite for National Development</a></li>
+    <li><a href="#">Investments in Northern Infrastructure Rise</a></li>
+    <li><a href="#">Education Initiatives Expand in Northern States</a></li>
   </ul>
-</nav>
-<main class="page-layout">
-  <section class="articles">
-    <article>
-      <h2>Headline One</h2>
-      <p>Article summary goes here. This is the first news story.</p>
-    </article>
-    <article>
-      <h2>Headline Two</h2>
-      <p>Article summary goes here. This is the second news story.</p>
-    </article>
-    <article>
-      <h2>Headline Three</h2>
-      <p>Article summary goes here. This is the third news story.</p>
-    </article>
-  </section>
-  <aside class="sidebar">
-    <h2>Trending News</h2>
-    <ul>
-      <li><a href="#">Breaking: National Budget Released</a></li>
-      <li><a href="#">Power Grid Stabilizes After Outage</a></li>
-      <li><a href="#">University Exams Postponed</a></li>
-      <li><a href="#">Local Hero Saves Family</a></li>
-    </ul>
-  </aside>
-</main><body>
-  <header class="masthead">...</header>
-  <nav class="main-nav">...</nav>
-  <main class="page-layout">
-    <section class="articles">...</section>
-    <aside class="sidebar">...</aside>
+</article>
+
   </main>
-  <article>
-  <h2>New Tech Bill Signed Into Law</h2>
-  <p><strong>By:</strong> Sarah Bello | <time datetime="2025-05-20">May 20, 2025</time></p>
-  <p>The government has passed a new bill aimed at supporting tech education and digital infrastructure nationwide. Experts say this will boost innovation and job creation across multiple sectors.</p>
-</article>
-
-<article>
-  <h2>Power Grid Stabilizes After Major Outage</h2>
-  <p><strong>By:</strong> Ahmed Yusuf | <time datetime="2025-05-19">May 19, 2025</time></p>
-  <p>After days of blackouts, the national power grid has been stabilized. Authorities credited quick engineering interventions and regional cooperation for the fast recovery.</p>
-</article>
-
-<article>
-  <h2>University Exams Postponed Across Country</h2>
-  <p><strong>By:</strong> Jennifer Obi | <time datetime="2025-05-18">May 18, 2025</time></p>
-  <p>Due to ongoing protests, the Ministry of Education has postponed all university exams by two weeks. Students are advised to follow official channels for updated schedules.</p>
-</article>
-
-</body>
-
-
+  <h3>Related Stories</h3>
+<ul>
+  <li><a href="#">Tech Startups to Watch in 2025</a></li>
+  <li><a href="#">How AI is Changing African Education</a></li>
+  <li><a href="#">Digital Skills: What Schools Must Teach</a></li>
+</ul>
 </body>
 </html>
